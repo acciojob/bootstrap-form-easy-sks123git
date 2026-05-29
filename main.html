@@ -67,12 +67,12 @@
             <div class="invalid-feedback">Please enter your college name.</div>
           </div>
           <div class="col-sm-3">
-            <label for="graduation-year-input" class="form-label"
+            <label for="grad-year-select" class="form-label"
               >Graduation Year</label
             >
             <select
               class="form-select"
-              id="graduation-year-input"
+              id="grad-year-select"
               name="graduationYear"
               required
             >
@@ -87,7 +87,7 @@
           <div class="col-sm-3">
             <label for="roll-no-input" class="form-label">Roll No.</label>
             <input
-              type="number"
+              type="text"
               class="form-control"
               name="rollNo"
               id="roll-no-input"
@@ -133,7 +133,7 @@
             }
             form.classList.add("was-validated");
           },
-          false
+          false,
         );
       })();
     </script>
